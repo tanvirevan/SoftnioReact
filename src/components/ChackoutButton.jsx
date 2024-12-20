@@ -22,7 +22,7 @@ export default function CheckoutButton({onOpenModal})
       (
         <button
           onClick={() => handleModal()}
-          className="Roboto w-[120px] h-[40px] fixed bottom-5 right-[33%] md:right-[45%] lg:right-[46.5vw] bg-[#FFBB5A] text-[#364A63] rounded-full shadow-lg font-bold text-[14px] hover:text-[16px] duration-300 cursor-pointer"
+          className="Roboto w-[120px] h-[40px] fixed bottom-5 right-[1%] md:right-[45%] lg:right-[46.5vw] bg-[#FFBB5A] text-[#364A63] rounded-full shadow-lg font-bold text-[14px] hover:text-[16px] duration-300 cursor-pointer"
         >
           Checkout
           <span className="totalItem ml-[5px] bg-[#FFFFFF] px-[6px] py-[2px] rounded-md text-[12px]">
